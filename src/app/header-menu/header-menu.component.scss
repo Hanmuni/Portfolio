@@ -1,0 +1,37 @@
+.navigation-bar {
+  background-color: #141D2F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 72px 16px 72px;
+
+
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: space-between;
+
+
+  a {
+    color: white;
+    font-size: 23px;
+    margin: 16px;
+
+
+    &:hover {
+      color: rgb(250, 121, 3);
+      cursor: pointer;
+    }
+  }
+}
