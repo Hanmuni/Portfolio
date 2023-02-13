@@ -3,13 +3,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 72px 16px 72px;
+  padding: 1vh 15vh 1vh 15vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 
 
   img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
+    width: 128px;
+    height: 128px;
+    object-fit: contain;
 
     &:hover {
       cursor: pointer;
@@ -21,12 +24,12 @@
 .navigation-menu {
   display: flex;
   justify-content: space-between;
-
+  
 
   a {
     color: white;
-    font-size: 23px;
-    margin: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
 
 
     &:hover {
