@@ -17,19 +17,49 @@
 .profile-img {
   padding: 1vh 15vh 1vh 15vh;
   position: absolute;
-  width: 30vw;
+  width: 35vw;
   height: 65vh;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .shadow {
-  
+
   position: absolute;
   width: 45vw;
   right: 0;
   left: 0;
   height: 65vh;
   object-fit: cover;
+}
+
+.introduction {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: calc(45px + 0.390625vw);
+  margin-block-end: 0;
+  font-weight: normal;
+}
+
+.horizontal-text {
+  padding-right: 15vh;
+}
+
+.name {
+  font-size: calc(60px + 0.390625vw);
+  font-weight: bold;
+}
+
+.job-title {
+  color: #FF4747;
+  font-size: calc(35px + 0.390625vw);
 }
 
 .vector {
