@@ -1,17 +1,16 @@
 .frontpage {
   background-color: #141D2F;
+  height: 85%;
 }
 
 .profile {
   display: flex;
   justify-content: space-between;
-  height: 30vh;
+  height: 45%;
 }
 
 .profile-picture {
   position: relative;
-  width: 500px;
-  height: 500px;
 }
 
 .profile-img {
@@ -23,7 +22,6 @@
 }
 
 .shadow {
-
   position: absolute;
   width: 45vw;
   right: 0;
@@ -35,16 +33,19 @@
 .introduction {
   color: white;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.introduction-text {
+  display: flex;
 }
 
 .vertical-text {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  font-size: calc(45px + 0.390625vw);
-  margin-block-end: 0;
+  font-size: calc(50px + 0.390625vw);
   font-weight: normal;
 }
 
@@ -59,16 +60,39 @@
 
 .job-title {
   color: #FF4747;
-  font-size: calc(35px + 0.390625vw);
+  font-size: calc(33px + 0.390625vw);
+  display: flex;
+  justify-content: center;
 }
+
+.contact-btn {
+  margin-top: 32px;
+
+  button {
+    font-size: calc(23px + 0.390625vw);
+    background-color: #FA7902;
+    padding: 16px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: all 225ms ease-in-out;
+
+
+    &:hover {
+      cursor: pointer;
+      background-color: #FF4747;
+      transform: scale(1.1);
+    }
+  }
+}
+
 
 .vector {
   position: relative;
 
   img {
     width: 100%;
-    height: 50vh;
-    object-fit: fill;
+    height: 45vh;
     z-index: 1;
   }
 }
