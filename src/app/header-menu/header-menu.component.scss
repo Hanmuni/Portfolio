@@ -7,7 +7,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  
+
   img {
     width: 128px;
     height: 128px;
@@ -23,14 +23,15 @@
 .navigation-menu {
   display: flex;
   justify-content: space-between;
-  
+
 
   a {
     color: white;
     margin-left: 32px;
     font-size: calc(23px + 0.390625vw);
     transition: all 225ms ease-in-out;
-    
+    text-decoration: none;
+
     &:hover {
       color: rgb(250, 121, 3);
       cursor: pointer;
