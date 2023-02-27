@@ -7,6 +7,7 @@ import { FrontpageComponent } from './frontpage/frontpage.component';
 import { HeaderMenuComponent } from './header-menu/header-menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutmeSectionComponent } from './aboutme-section/aboutme-section.component';
+import { SkillsComponent } from './skills/skills.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { AboutmeSectionComponent } from './aboutme-section/aboutme-section.compo
     HeaderMenuComponent,
     FooterComponent,
     AboutmeSectionComponent,
+    SkillsComponent,
    
   ],
   imports: [
