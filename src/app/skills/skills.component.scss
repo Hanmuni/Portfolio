@@ -5,6 +5,7 @@
   align-items: flex-start;
   padding-top: 64px;
   padding-bottom: 64px;
+  position: relative;
 }
 
 .skills-icons {
@@ -113,5 +114,17 @@
       background-color: #FF4747;
       transform: scale(1.1);
     }
+  }
+}
+
+
+.orange-shadow {
+  position: absolute;
+  top: 30%;
+  
+  img {
+    z-index: 2;
+    width: 20vw;
+    height: 120vh;
   }
 }
