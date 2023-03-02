@@ -43,13 +43,14 @@
   height: 50vh;
   padding-top: 64px;
   padding-bottom: 64px;
+  padding-left: 15vh;
+    padding-right: 15vh;
   display: flex;
   justify-content: space-between;
 }
 
 .project-image {
-  padding-left: 15vh;
-
+  
   img {
     width: 30vw;
     object-fit: contain;
@@ -59,7 +60,6 @@
 
 .project-description {
   width: 50%;
-  padding-right: 15vh;
   text-align: center;
 
   h1 {
