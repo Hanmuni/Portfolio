@@ -1,0 +1,50 @@
+<div class="contact-container" id="contact">
+
+
+  <div class="headline">
+    <div class="red-line-left"></div>
+    <h1> Contact </h1>
+    <div class="red-line-right"></div>
+  </div>
+
+  <div class="contact-content">
+
+    <div class="contact-text">
+      <h2> Got a problem to solve?</h2>
+
+      <p>With this form, you can leave a message for me. I am interested in hearing you, knowing your ideas and
+        contributing to your projects with my work.
+      </p>
+      <p> Need a Frontend developer? <b>Contact me! </b></p>
+    </div>
+    <div class="contact-formular">
+
+      <form (submit)="sendMail()" ngNativeValidate #form>
+
+        <input required type="text" placeholder="Your name" name="name" #name>
+        <input required type="email" placeholder="Your email" name="email" #email>
+
+        <textarea required class="contact-input" type="text" placeholder="Your message" name="message"
+          #message></textarea>
+
+        <div class="mail-sent" *ngIf="mailSent">
+          <p>Thank you for your message!</p>
+          <p>I will reply as soon as possible.</p>
+        </div>
+
+        <div class="send-btn">
+          <button #button>Send</button>
+        </div>
+
+      </form>
+
+
+
+    </div>
+
+
+  </div>
+
+  <div class="orange-line"></div>
+
+</div>
