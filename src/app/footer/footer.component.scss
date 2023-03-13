@@ -15,6 +15,15 @@
   justify-content: center;
   margin-bottom: 16px;
 
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   img {
     width: 128px;
     height: 128px;
