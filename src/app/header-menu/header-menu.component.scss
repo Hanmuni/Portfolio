@@ -8,14 +8,31 @@
   top: 0;
   z-index: 100;
 
-  img {
-    width: 128px;
-    height: 128px;
-    object-fit: contain;
+  @media(max-width: 1000px) {
+    padding: 0 8vh 0 8vh;
+  }
 
-    &:hover {
-      cursor: pointer;
-    }
+}
+
+.logo-img {
+  width: 128px;
+  height: 128px;
+  object-fit: contain;
+
+  @media(max-width: 1000px) {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+.navbar-btn-mobile {
+  display: none;
+
+  @media(max-width: 1000px) {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
   }
 
 }
@@ -23,6 +40,10 @@
 .navigation-menu {
   display: flex;
   justify-content: space-between;
+
+  @media(max-width: 1000px) {
+    display: none;
+  }
 
 
   a {
