@@ -6,12 +6,9 @@ import * as AOS from 'aos';
   templateUrl: './aboutme-section.component.html',
   styleUrls: ['./aboutme-section.component.scss']
 })
+
 export class AboutmeSectionComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+  ngOnInit() {
     AOS.init();
   }
-
 }
