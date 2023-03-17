@@ -68,7 +68,7 @@
   @media(max-width: 1000px) {
     position: absolute;
     top: 80%;
-    z-index: 3;
+    z-index: 4;
     width: 100%;
   }
 
@@ -144,11 +144,12 @@
 .contact-btn {
   margin-top: 32px;
 
+
   @media(max-width: 1000px) {
     margin-top: 8px;
   }
 
-  button {
+  a {
     font-size: calc(23px + 0.390625vw);
     background-color: #FA7902;
     box-shadow: 0 0 5px #FA7903;
@@ -157,12 +158,14 @@
     border: none;
     border-radius: 10px;
     transition: all 225ms ease-in-out;
+    text-decoration: none;
+    display: inline-block;
 
 
     &:hover {
       cursor: pointer;
       background-color: #FF4747;
-      transform: scale(1.1);
+      transform: scale(1.1, 1.1);
     }
 
     @media(max-width: 1000px) {
