@@ -83,7 +83,7 @@
     text-shadow: 0px 0px 6px white;
 
     @media(max-width: 1000px) {
-      font-size: 25px;
+      font-size: calc(25px + 0.390625vw);
     }
   }
 
@@ -92,7 +92,7 @@
     text-align: center;
 
     @media(max-width: 1000px) {
-      font-size: 16px;
+      font-size: calc(16px + 0.390625vw);
     }
   }
 }
@@ -108,7 +108,7 @@
   font-size: calc(18px + 0.390625vw);
 
   @media(max-width: 1000px) {
-    font-size: 16px;
+    font-size: calc(16px + 0.390625vw);
     margin: 8px;
   }
 }

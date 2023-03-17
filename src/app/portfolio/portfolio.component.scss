@@ -16,7 +16,7 @@
     text-shadow: 0px 0px 6px white;
 
     @media(max-width: 1000px) {
-      font-size: 25px;
+      font-size: calc(25px + 0.390625vw);
     }
   }
 }
@@ -51,7 +51,7 @@
   justify-content: center;
 
   @media(max-width: 1000px) {
-    font-size: 16px;
+    font-size: calc(16px + 0.390625vw);
     text-align: center;
   }
 }
@@ -106,7 +106,7 @@
     font-size: calc(33px + 0.390625vw);
 
     @media(max-width: 1000px) {
-      font-size: 20px;
+      font-size: calc(20px + 0.390625vw);
     }
   }
 
@@ -115,7 +115,7 @@
     font-size: calc(23px + 0.390625vw);
 
     @media(max-width: 1000px) {
-      font-size: 18px;
+      font-size: calc(18px + 0.390625vw);
     }
   }
 
@@ -123,7 +123,7 @@
     font-size: calc(18px + 0.390625vw);
 
     @media(max-width: 1000px) {
-      font-size: 16px;
+      font-size: calc(16px + 0.390625vw);
     }
   }
 }
@@ -146,7 +146,7 @@
   color: white;
 
   @media(max-width: 1000px) {
-    font-size: 16px;
+    font-size: calc(16px + 0.390625vw);
   }
 
 
@@ -169,7 +169,7 @@
   color: white;
 
   @media(max-width: 1000px) {
-    font-size: 16px;
+    font-size: calc(16px + 0.390625vw);
   }
 
   &:hover {

@@ -16,4 +16,17 @@ export class HeaderMenuComponent implements OnInit {
     window.scrollTo(0, 0);
   }
 
+  openMobileMenu() {
+    document.getElementById('mobile-menu')?.classList.remove('d-none');
+    document.getElementById('open-icon')?.classList.add('d-none');
+    document.getElementById('open-icon')?.classList.add('d-none');
+    document.getElementById('close-icon')?.classList.remove('d-none');
+  }
+
+  closeMobileMenu() {
+    document.getElementById('mobile-menu')?.classList.add('d-none');
+    document.getElementById('open-icon')?.classList.remove('d-none');
+    document.getElementById('close-icon')?.classList.add('d-none');
+  }
+
 }

@@ -63,3 +63,41 @@
     }
   }
 }
+
+.navigation-menu-mobile {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background-color: #141D2F;
+  width: 100%;
+  opacity: 0.9;
+  z-index: 5;
+  animation: menu 225ms ease-in-out;
+  animation-direction: normal;
+
+  a {
+    color: white;
+    font-size: calc(25px + 0.390625vw);
+    text-decoration: none;
+    margin: 16px;
+  }
+}
+
+.d-none {
+  display: none;
+}
+
+@keyframes menu {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}

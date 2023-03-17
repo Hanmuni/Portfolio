@@ -6,8 +6,19 @@
     <a href="#aboutme"> About me</a>
     <a href="#skills"> Skills</a>
     <a href="#portfolio"> Portfolio</a>
+    <a href="#contact"> Contact </a>
 
   </div>
-  <img class="navbar-btn-mobile" src="assets/img/navbar-btn-mobile.png">
+  <img id="open-icon" (click)="openMobileMenu()" class="navbar-btn-mobile" src="assets/img/navbar-btn-mobile.png">
+  <img id="close-icon" (click)="closeMobileMenu()" class="navbar-btn-mobile d-none" src="assets/img/close-final.png">
+
+</div>
+
+<div id="mobile-menu" class="navigation-menu-mobile d-none">
+
+  <a href="#aboutme" (click)="closeMobileMenu()"> About me</a>
+  <a href="#skills" (click)="closeMobileMenu()"> Skills</a>
+  <a href="#portfolio" (click)="closeMobileMenu()"> Portfolio</a>
+  <a href="#contact" (click)="closeMobileMenu()"> Contact </a>
 
 </div>
