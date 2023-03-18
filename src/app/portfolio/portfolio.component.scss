@@ -145,6 +145,8 @@
   transition: all 225ms ease-in-out;
   text-decoration: none;
   color: white;
+  align-items: center;
+  display: flex;
 
   @media(max-width: 1000px) {
     font-size: calc(16px + 0.390625vw);
@@ -168,6 +170,8 @@
   transition: all 225ms ease-in-out;
   text-decoration: none;
   color: white;
+  align-items: center;
+  display: flex;
 
   @media(max-width: 1000px) {
     font-size: calc(16px + 0.390625vw);

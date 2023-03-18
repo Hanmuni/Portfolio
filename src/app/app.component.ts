@@ -10,6 +10,6 @@ export class AppComponent implements OnInit {
   title = 'Portfolio';
 
   ngOnInit(): void {
-    AOS.init();
+    AOS.init({ once: true });
   }
 }
