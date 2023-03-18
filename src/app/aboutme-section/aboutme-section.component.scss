@@ -17,27 +17,40 @@
   text-align: center;
 
   @media(max-width: 1000px) {
-    width: auto;
-    padding: 8px;
-    margin-left: 0;
+    display: none;
   }
 
   h1 {
     text-shadow: 0px 0px 6px white;
     font-size: calc(45px + 0.390625vw);
-
-    @media(max-width: 1000px) {
-      font-size: calc(25px + 0.390625vw);
-    }
   }
 
   span {
     font-size: calc(16px + 0.390625vw);
+  }
+}
 
-    @media(max-width: 1000px) {
+.aboutme-headline-mobile {
+  display: none;
+
+  @media(max-width: 1000px) {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    text-align: center;
+
+    h1 {
+      text-shadow: 0px 0px 6px white;
+      font-size: calc(25px + 0.390625vw);
+    }
+
+    span {
       font-size: calc(16px + 0.390625vw);
     }
   }
+
+
+
 }
 
 .aboutme-text {
