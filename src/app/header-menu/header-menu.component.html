@@ -3,10 +3,12 @@
 
   <div class="navigation-menu">
 
-    <a href="#aboutme"> About me</a>
-    <a href="#skills"> Skills</a>
-    <a href="#portfolio"> Portfolio</a>
-    <a href="#contact"> Contact </a>
+    <a href="#aboutme" translate=""> About me</a>
+    <a href="#skills" translate=""> Skills</a>
+    <a href="#portfolio" translate=""> Portfolio</a>
+    <a href="#contact" translate=""> Contact </a>
+    <a (click)="translate.use('de');"> <img class="german-btn" src="assets/img/german.png"> </a>
+    <a (click)="translate.use('en');"> <img class="english-btn" src="assets/img/english.png"></a>
 
   </div>
   <img id="open-icon" (click)="openMobileMenu()" class="navbar-btn-mobile" src="assets/img/navbar-btn-mobile.png">
@@ -16,9 +18,11 @@
 
 <div id="mobile-menu" class="navigation-menu-mobile d-none">
 
-  <a href="#aboutme" (click)="closeMobileMenu()"> About me</a>
-  <a href="#skills" (click)="closeMobileMenu()"> Skills</a>
-  <a href="#portfolio" (click)="closeMobileMenu()"> Portfolio</a>
-  <a href="#contact" (click)="closeMobileMenu()"> Contact </a>
+  <a href="#aboutme" (click)="closeMobileMenu()" translate=""> About me</a>
+  <a href="#skills" (click)="closeMobileMenu()" translate=""> Skills</a>
+  <a href="#portfolio" (click)="closeMobileMenu()" translate=""> Portfolio</a>
+  <a href="#contact" (click)="closeMobileMenu()" translate=""> Contact </a>
+  <a (click)="translate.use('de'); closeMobileMenu()"> <img class="german-btn" src="assets/img/german.png"> </a>
+  <a (click)="translate.use('en'); closeMobileMenu()"> <img class="english-btn" src="assets/img/english.png"></a>
 
 </div>
